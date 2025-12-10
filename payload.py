@@ -10,8 +10,6 @@ CHAN   = '#bot'
 NICK   = f'bot-{random.randint(1, 9999)}'
 
 
-import platform   # 放到文件顶部
-
 def stop_ddos():
     sys_type = platform.system()          # 'Windows' / 'Linux' / 'Darwin'
     if sys_type == 'Windows':
